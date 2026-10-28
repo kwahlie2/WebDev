@@ -7,30 +7,17 @@
 -->
 <html>
   <head>
-    <title>Exploring Id Selectors & Specificity</title>
+    <title>WD_2.3 Prac Soln</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-      #bannerSeparator{
-        height: 10px;
-        border:0px solid white;
-        background-image: linear-gradient(to right, blue, white);
-      }
-      img{
-        height:100px;
-      }
-      #logo_container{
-        text-align:center;
-      }
-    </style>
   </head>
   <body>
     <script src="script.js"></script>
     <!-- Challenge 1: Add the image of banner.jpg.  Add an id of "banner" to the image-->
-
+    <img src="banner.jpg" id="banner">
     <!-- Challenge 2: Add a horizontal rule.  Add an id of "bannerSeparator" to the <hr>-->
-    
+    <hr id="bannerSeparator">
     <!-- Challenge 3: Add in id of logoContainer to the div below.-->
-    <div>
+    <div id="logoContainer">
       <img src="html.png" class="logo">
       <img src="css.png" class="logo">
       <img src="js.png" class="logo">
