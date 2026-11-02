@@ -6,13 +6,13 @@
                 using rgb( )
 */
 #banner{
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(255, 0, 0);
 }
 /* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
                 using a hexdecimal value. 
 */
 .subbanner{
-    background-color: #ff88ff;
+    background-color: #1100ff;
 }
 /* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
                  elements with a class of gallery 
